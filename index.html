@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кошачий Вестник</title>
-    <link href="/news/css/styles.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>кошачий</h1>
         <!-- pixabay работает только через VPN
         <img src="https://pixabay.com/images/download/cat-1294175_640.png" alt="cat" width="20%"> -->
-        <img src="/news/images/title-img.png" alt="cat" width="20%">
+        <img src="/images/title-img.png" alt="cat" width="20%">
         <h1>вестник</h1>
     </header>
-
     <section class="news">
+        <div class="navigation">
+            <a href="/">Главная</a>
+            <a href="#" onclick="new_news()">Новое</a>
+            <a href="/pages/archive.html">Архив</a>
+    </div>
         <article>
             <a href="https://www.newsweek.com/fearless-cat-scares-giant-bear-away-video-1829548">
                 <h2>Бесстрашный кот попал на камеру, отпугивая гигантского медведя от дома хозяина</h2>
@@ -80,6 +84,6 @@
             <a href="#">Реклама</a>
         </div>
         <div class="copyright">&copy;&nbsp;кошачий вестник 2023</div>
-    </footer>
+    <script src="/js/nevigation_new.js"></script>
 </body>
 </html>
