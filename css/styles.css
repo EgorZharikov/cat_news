@@ -48,6 +48,7 @@ header img {
   align-items: center;
   justify-content: center;
   padding-top: 15px;
+  background-color: #fdadadac;
 }
 
 .navigation a {
@@ -98,7 +99,7 @@ h1:nth-of-type(2){
 
 .news {
    background-color: #fdadadac;
-   padding: 15px 0 32px;
+   padding: 10x 0 32px;
 }
 
 article {
@@ -169,6 +170,12 @@ article img {
   color: #dd0404;
 }
 
+@media screen and (max-width: 800px) {
+  .article-meta {
+     font-size: small;
+  }
+}
+
 article p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #540202;
@@ -214,6 +221,7 @@ footer .links > a {
 @media screen and (max-width: 800px) {
   footer .links > a {
      padding: 0 9px;
+     font-size: 10px;
   }
 }
 
