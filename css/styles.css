@@ -48,7 +48,6 @@ header img {
   align-items: center;
   justify-content: center;
   padding-top: 15px;
-  background-color: #fdadadac;
 }
 
 .navigation a {
@@ -68,7 +67,7 @@ h1 {
 
 @media screen and (max-width: 800px) {
   h1 {
-  font-size: 33px;
+  font-size: 27px;
   margin: 0 10px;
   }
   }
